@@ -15,14 +15,21 @@ body {
 body * {
   font-family: "Roboto Condensed", sans-serif;
 }
-body p, body h1, body h2, body h3, body h4, body h5, body h6 {
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
   margin: 0;
 }
 body a {
   color: #666;
   text-decoration: none;
 }
-body ul, body li {
+body ul,
+body li {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -46,14 +53,34 @@ body ul, body li {
 .contenedorCards .card.esFav .wrapper .infoProd .actions .action.aFavs {
   transform: rotateX(360deg) scale(1.2);
 }
-.contenedorCards .card.esFav .wrapper .infoProd .actions .action.aFavs svg path, .contenedorCards .card.esFav .wrapper .infoProd .actions .action.aFavs svg circle {
+.contenedorCards .card.esFav .wrapper .infoProd .actions .action.aFavs svg path,
+.contenedorCards
+  .card.esFav
+  .wrapper
+  .infoProd
+  .actions
+  .action.aFavs
+  svg
+  circle {
   fill: #fff;
   transition-delay: 0.2s;
 }
-.contenedorCards .card.enCarrito .wrapper .infoProd .actions .action.alCarrito .inCart {
+.contenedorCards
+  .card.enCarrito
+  .wrapper
+  .infoProd
+  .actions
+  .action.alCarrito
+  .inCart {
   transform: scale(1);
 }
-.contenedorCards .card.enCarrito .wrapper .infoProd .actions .action.alCarrito .outCart {
+.contenedorCards
+  .card.enCarrito
+  .wrapper
+  .infoProd
+  .actions
+  .action.alCarrito
+  .outCart {
   transform: scale(0);
 }
 .contenedorCards .card .wrapper {
@@ -143,7 +170,13 @@ body ul, body li {
   font-weight: 600;
   text-align: left;
 }
-.contenedorCards .card .wrapper .infoProd .actions .preciosGrupo .precio.precioOferta {
+.contenedorCards
+  .card
+  .wrapper
+  .infoProd
+  .actions
+  .preciosGrupo
+  .precio.precioOferta {
   position: absolute;
   left: 0;
   top: -15px;
@@ -151,10 +184,22 @@ body ul, body li {
   font-size: 15px;
   text-decoration: line-through;
 }
-.contenedorCards .card .wrapper .infoProd .actions .preciosGrupo .precio.precioOferta:before {
+.contenedorCards
+  .card
+  .wrapper
+  .infoProd
+  .actions
+  .preciosGrupo
+  .precio.precioOferta:before {
   font-size: 12px;
 }
-.contenedorCards .card .wrapper .infoProd .actions .preciosGrupo .precio:before {
+.contenedorCards
+  .card
+  .wrapper
+  .infoProd
+  .actions
+  .preciosGrupo
+  .precio:before {
   content: var(--currencyPrefix);
   font-size: 20px;
 }
@@ -177,7 +222,8 @@ body ul, body li {
   position: absolute;
   transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) all 0.3s;
 }
-.contenedorCards .card .wrapper .infoProd .actions .action svg path, .contenedorCards .card .wrapper .infoProd .actions .action svg circle {
+.contenedorCards .card .wrapper .infoProd .actions .action svg path,
+.contenedorCards .card .wrapper .infoProd .actions .action svg circle {
   stroke: currentColor;
   fill: transparent;
   transition: ease all 0.3s;
@@ -191,6 +237,12 @@ body ul, body li {
   height: 25px;
   color: #fff;
 }
-.contenedorCards .card .wrapper .infoProd .actions .action.alCarrito svg.inCart {
+.contenedorCards
+  .card
+  .wrapper
+  .infoProd
+  .actions
+  .action.alCarrito
+  svg.inCart {
   transform: scale(0);
 }
